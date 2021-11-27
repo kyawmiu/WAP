@@ -1,0 +1,29 @@
+body{
+    background-color: rosybrown;
+}
+
+#title {
+    color: tomato;
+    text-align: center;
+}
+
+.subtitle{
+    color: yellowgreen;
+}
+.subtitle::first-letter{ 
+    font-size: 2em;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: tomato;
+}
+
+p{
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+}
